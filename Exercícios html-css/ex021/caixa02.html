@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color:lightgoldenrodyellow
+        }
+
+        header{
+            background-color: darkorange;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: lightsalmon;
+            padding: 3px;
+            box-shadow: 1px 2px 3px 1px black;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: inherit;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+           text-decoration: underline; 
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 4px 4px 9px 0px black;
+
+        }
+
+        #intro{
+            background-color: aquamarine;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-left: 2px;
+            margin-right: 3px;
+            margin-left: 3px;
+            border-radius: 20px 9px;
+
+        }
+
+        #conteudo{
+            background-color: bisque;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-left: 2px;
+            margin-right: 3px;
+            margin-left: 3px;
+            border-radius: 20px 9px;
+        }
+
+        #conclusao{
+            background-color: lightblue;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-left: 2px;
+            margin-right: 3px;
+            margin-left: 3px;
+            border-radius: 20px 9px;
+        }
+
+        footer{
+            background-color: black;
+            color: aqua;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center; 
+            padding: 4px;     
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        article > aside{
+            font-style: italic;
+            background-color: lightgray;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+       <h1>Meu primeiro site</h1> 
+
+       <nav>
+        <a href="#">Link1</a>
+        <a href="#">Link2</a>
+        <a href="#">Link3</a>
+        <a href="#">Link4</a>
+        <a href="#">Link5</a>
+    </nav>
+
+    </header>
+
+    
+
+    <main>
+        <h2>Curiosidade sobre a laranja</h2>
+
+        <section id="intro">
+            <h4>Introdução</h4>
+            <p>
+                A laranjeira é uma árvore da família Rutaceae. 
+                Dela, surge a laranja, seu fruto. 
+                A história da sua origem indica um nascimento ocorrido a partir de um cruzamento 
+                entre cimboa e tangerina, assim sendo, a fruta seria um fruto híbrido.
+            </p> 
+        </section>
+
+        <section id="conteudo">
+            <h4>Consumo</h4>
+            <p>
+                A laranja é um fruto popularmente conhecido e utilizado em lanches e receitas. 
+                Cheirosa e suculenta, a fruta é atraente ao paladar da maioria das pessoas. 
+                Entretanto, muita gente não deseja consumí-la, a não ser como sabor de balas e doces industriais.
+            </p>
+        </section>
+           
+        <section id="conclusao">
+            <h4>Benefícios</h4>
+            <p>
+                A importância da laranja é reiterada quando consideramos seus aspectos nutricionais. 
+                Citando somente alguns de seus benefícios, está o aumento da vitamina C, potássio, cálcio, fósforo e magnésio.
+            </p>
+        </section>
+
+    </main>
+
+    <article> 
+        <aside>
+          <p>Artigo escrito por João Rios</p>  
+        </aside>
+    </article>
+
+    <br>
+    
+    <footer>
+        <p>Exercício desenvolvido por Danúbia Carvalho.</p>
+    </footer>
+
+</body>
+</html>
