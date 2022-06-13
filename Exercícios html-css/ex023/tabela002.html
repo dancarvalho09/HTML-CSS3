@@ -17,6 +17,15 @@
             border-collapse: collapse;
         }
 
+        caption {
+            background-color: lightslategray;
+            color: white;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            
+        }
+
         td, th {
             border: 1px solid black;
             padding: 10px;
@@ -39,21 +48,23 @@
         ANATOMIA PARA TABELAS GRANDES
 
         TABLE
-            THEAD
-                TR, TD, TH
-            TBODY
-                TR, TD, TH
-            TFOOT
-                TR, TD, TH
+            CAPTION
+                THEAD
+                    TR, TD, TH
+                TBODY
+                    TR, TD, TH
+                TFOOT
+                    TR, TD, TH
     -->
 
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>População das Unidades Federativas 2020</caption>
         <thead> <!-- cabeçalho -->
             <tr>
-                <th>Estado</th> <!-- títulos -->
-                <th>População em 2020</th>
+                <th scope="col">Estado</th> <!-- título -->
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
             
@@ -196,7 +207,7 @@
 
         <tfoot> <!-- rodapé -->
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
