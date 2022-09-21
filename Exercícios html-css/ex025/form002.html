@@ -16,14 +16,14 @@
 </head>
 <body>
     <h1>Teste de Formulário</h1>
-    <form action="cadastro.php" method="post" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="iuser">Login: </label>
-            <input type="text" name="login" id="ilogin" required minlength="5" placeholder="Digite usuário ou e-mail">
+            <input type="text" name="login" id="ilogin" required minlength="5" placeholder="Digite usuário ou e-mail" autocomplete="username">
         </p>
         <p>
             <label for="ipass">Senha: </label>
-            <input type="password" name="password" id="ipass" required minlength="8" maxlength="15" placeholder="mínimo 8 caracteres">
+            <input type="password" name="password" id="ipass" required minlength="8" maxlength="15" placeholder="mínimo 8 caracteres" autocomplete="current-password">
         </p>
         <p>
             <input type="submit" value="Enviar">
