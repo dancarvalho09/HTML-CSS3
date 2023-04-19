@@ -1,3 +1,37 @@
 @charset "UTF-8";
 
 /*OUTRAS MÍDIAS*/
+
+/* 
+TYPICAL DEVICE BREAKPOINTS:
+> Pequenas telas: até 600px
+> Celular: 601px até 768px
+> Tablet: 769px até 992px
+> Desktop: 993px até 1200px
+> Grandes telas: a partir de 1201px
+*/
+
+/* NÃO FOI FEITO MEDIA PARA DISPOSITIVOS MÓVEIS POIS FOI REALIZADO EM style.css UTILIZANDO MOBILE FIRST */
+
+@media print { /* IMPRESSÃO */
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) { /* TABLET */
+  body{
+    background-image: url(../imagens/back-tablet.jpg);
+  }
+  img#phone  { display: none;}
+  img#tablet { display: block; }
+  img#print  { display: none;}
+  img#pc     { display: none;}
+  img#tv     { display: none;}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) { /* DESKTOP*/
+  
+}
+
+@media screen and (min-width: 1201px) { /* GRANDES TELAS */
+  
+}
