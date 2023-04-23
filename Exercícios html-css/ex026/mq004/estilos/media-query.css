@@ -19,7 +19,7 @@ TYPICAL DEVICE BREAKPOINTS:
   }
   
   body {
-    /*background-image: url(../imagens/back-print.jpg);*/ 
+    background-image: url(../imagens/back-print.jpg); /* não é necessário pois não aparece na impressão*/
     
   }
 
