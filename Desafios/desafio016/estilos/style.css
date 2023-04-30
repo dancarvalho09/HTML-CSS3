@@ -64,3 +64,13 @@ div#formulario {
     padding: 10px;
     display: block;
 }
+
+div#formulario > h1 {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+div#formulario > p {
+    font-size: 15px;
+    padding: 15px;
+}
