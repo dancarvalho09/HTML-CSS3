@@ -7,11 +7,11 @@
 /* 
 PALETA DE CORES (https://color.adobe.com/pt/create/color-wheel)
 
-#793D94 (roxo escuro)
-#E0B65E (areia)
-#AA2DE0 (roxo claro)
-#59E1A1 (verde água)
-#4B9472 (verde água escuro)
+#5C4027 (marrom escuro)
+#E1C0A2 (bege)
+#DB985C (areia)
+#5C4E42 (terra)
+#A87547 (areia escuro)
 
 */ 
 
@@ -24,7 +24,7 @@ PALETA DE CORES (https://color.adobe.com/pt/create/color-wheel)
 }
 
 body, html {
-    background-color: #793D94;
+    background-color: #5C4027;
     height: 100vh;
     width: 100vw;
 }
@@ -47,11 +47,15 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 div#imagem {
-   background: #793D94 url(../imagens/form-background.jpg) no-repeat;
+   background: #5C4027 url(../imagens/form-background.jpg) no-repeat;
    background-size: cover;
+   background-position: center center;
    height: 200px;
    display: block;
 }
