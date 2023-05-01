@@ -37,7 +37,7 @@ main {
 
 section#login {
     background-color: white;
-    height: 500px;
+    height: 520px;
     width: 250px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -73,4 +73,53 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 15px;
     padding: 15px;
+}
+
+div.campo {
+    background-color: #E1C0A2; 
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    display: block;
+    margin: 5px 0px;
+}
+
+input[type=submit] {
+    font-size: 16px;
+    background-color: #5C4E42;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-top: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: #DB985C;
+    cursor: pointer;
+}
+
+a.botao {
+    font-size: 16px;
+    color: white;
+    background-color: #A87547;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 9px;
+}
+
+a.botao:hover{
+    color: #5C4027;
+    background-color: #DB985C;
+}
+a.botao > span {
+    font-size: 14px;
+
 }

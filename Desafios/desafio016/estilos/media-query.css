@@ -11,24 +11,24 @@ TYPICAL DEVICE BREAKPOINTS:
 
 
 /* TABLET */
-@media screen and (min-width: 769px) and (max-width: 992px) { 
+@media screen and (min-width: 769px) and (max-width: 995px) { 
 
     body {
         background-image: linear-gradient(to top, #DB985C, #5C4027);
     }
 
     section#login {
-        width: 80vw;
+        width: 90vw;
     }
 
     div#imagem {
         height: 100%;
-        width: 30%;
+        width: 40%;
         float: left;
     }
 
     div#formulario {
-        width: 70%;
+        width: 60%;
         float: right;
     }
 
@@ -45,7 +45,7 @@ TYPICAL DEVICE BREAKPOINTS:
 
 
 /* DESKTOPS e TELAS GRANDES */
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 996px) {
 
     body {
         background-image: linear-gradient(to top, #DB985C, #5C4027);
