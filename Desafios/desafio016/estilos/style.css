@@ -45,11 +45,11 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 div#imagem {
@@ -76,13 +76,38 @@ div#formulario > p {
 }
 
 div.campo {
-    background-color: #E1C0A2; 
+    background-color: #5C4027; 
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
+    border: 2px solid #5C4027;
     display: block;
     margin: 5px 0px;
 }
+
+div.campo > span {
+    font-size: 24px;
+    color: white;
+    width: 40px;
+    padding: 10px; 
+}
+
+div.campo > input {
+    font-size: 16px;
+    color: #3f2b1a;
+    background-color: #E1C0A2;
+    width: calc(100% - 43.5px);
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-9.5px);
+}
+
+div.campo > input:focus-within {
+   background-color: white; 
+}
+
 
 input[type=submit] {
     font-size: 16px;
@@ -101,7 +126,7 @@ input[type=submit]:hover {
     cursor: pointer;
 }
 
-a.botao {
+a.esqueci-senha {
     font-size: 16px;
     color: white;
     background-color: #A87547;
@@ -113,13 +138,14 @@ a.botao {
     text-decoration: none;
     display: block;
     margin-top: 9px;
+    padding: 5px;
 }
 
-a.botao:hover{
+a.esqueci-senha:hover{
     color: #5C4027;
     background-color: #DB985C;
 }
-a.botao > span {
+a.esqueci-senha > span {
     font-size: 14px;
 
 }

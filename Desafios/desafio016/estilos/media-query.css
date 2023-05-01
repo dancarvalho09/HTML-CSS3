@@ -19,6 +19,7 @@ TYPICAL DEVICE BREAKPOINTS:
 
     section#login {
         width: 90vw;
+        height: 300px;
     }
 
     div#imagem {
@@ -52,7 +53,8 @@ TYPICAL DEVICE BREAKPOINTS:
     }
 
     section#login {
-        width: 950px ;
+        width: 950px;
+        height: 330px;
     }
 
     div#imagem {
